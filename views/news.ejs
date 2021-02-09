@@ -61,6 +61,8 @@
                             <p>
                                 <%- article.content %>
                             </p>
+                            <br>
+                            <p style="margin-bottom: 0px; position: absolute; right: 0; bottom: 0; font-family: ui-monospace;">Updated: <span style="color:red;" ><%- new Date(article.publishedAt.slice(0,10)).toDateString() %>    <%- moment(article.publishedAt).format('hh : mm A');%> </span></p>
 
 
                         </a>

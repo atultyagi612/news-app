@@ -1,6 +1,8 @@
 const express = require('express')
 const axios = require('axios')
 const newsr=express.Router()
+const moment = require('moment')
+const math = require('math')
 
 
 newsr.get('/',async(req,res)=>{
@@ -12,9 +14,9 @@ newsr.get('/',async(req,res)=>{
         const news_get =await axios.get(url)
         res.render('news',{articles:news_get.data.articles})
         
-
         
         
+    
     } catch (error) {
         if(error.response){
             console.log(error)
