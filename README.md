@@ -17,6 +17,6 @@ Ejs
 
 Run by ``` npm run dev  ```
 
-[VIEW DEMO](http://todo-appes.herokuapp.com/)
+[VIEW DEMO](https://x-news-app.herokuapp.com/)
 
 ![](image/image.jpg)
